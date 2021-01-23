@@ -1,5 +1,7 @@
+'''Calculate the number of trailing zeros in a factorial of a given number'''
+
+
 def zeros(n):
-    '''Calculate the number of trailing zeros in a factorial of a given number'''
     count = 0
 
     i = 5

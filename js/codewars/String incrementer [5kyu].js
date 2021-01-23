@@ -1,6 +1,7 @@
 /**
  * Function increment number in the end of the string. If number does't exist, then add 1 to the end.
  * @param {String} str
+ * @returns {String}
  */
 const incrementString = (str) => str.replace(/[0-8]?9*$/, (d) => `${++d}`);
 

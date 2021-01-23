@@ -2,6 +2,7 @@
  * Return a list of items without any elements with the same value next
  * to each other and preserving the original order of elements.
  * @param {Array | String} iterable
+ * @returns {Array} Unique list with original order
  */
 function uniqueInOrder(iterable) {
   const result = [];
